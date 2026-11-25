@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width:calc(100% - 330px );
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+ul {
+
+    list-style-type: none;
+} 
+a {
+    text-decoration: none;
+}

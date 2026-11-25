@@ -1,0 +1,120 @@
+body {
+    font-family: var(--primaryfont);
+}
+
+:root {
+    --primarycolor: #db3a70;
+    --primaryfont: inter;
+    --headingfont: montserrat;
+}
+
+.header a {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--primarycolor);
+}
+
+.colls .row {
+    gap: 30px;
+}
+
+
+.coll h2 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+    font-family: var(--headingfont);
+}
+
+#demo {
+    color: orange;
+}
+
+.colls .coll h2 {}
+
+.coll {
+    width: calc((100% - 90px) / 4);
+    text-align: center;
+    border: 1px solid var(--primarycolor);
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .coll {
+        width: calc((100% - 30px) / 2);
+
+    }
+
+}
+
+/*
+   gap = number of gab between the elements 
+   */
+
+
+
+
+
+.footer {
+    background-color: var(--primarycolor);
+}
+
+
+img {
+    width: 100%;
+}
+
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.user {
+    width: calc((100% - 90px) / 4)
+}
+
+.header {
+    display: flex;
+    COLOR: #FF0000;
+    justify-content: space-around;
+    align-items: center;
+    padding: 21.84px 0;
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+.list ul,
+.icon ul {
+    display: flex;
+}
+
+
+.list ul {
+    column-gap: 60px;
+
+
+}
+
+
+
+.icon ul li {
+    margin-right: 24px;
+}
